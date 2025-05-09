@@ -88,7 +88,7 @@ def main():
     else:
         print("Không có bài viết nào được lưu.")
 
-schedule.every().day.at("16:11").do(main)
+schedule.every().day.at("06:00").do(main)
 
 if __name__ == '__main__':
     print(" Chờ đến lịch chạy...")
