@@ -66,7 +66,7 @@ def save_to_google_sheets(data, sheet_id, json_file):
     for item in data:
         sheet.append_row([item['url'], item['title'], item['sapo'], item['content'], item['image']])
 
-    print("✅ Dữ liệu đã được ghi vào Google Sheets.")
+    print("Dữ liệu đã được ghi vào Google Sheets.")
 
 def main():
     print("Bắt đầu thu thập từ dantri.com.vn...")
